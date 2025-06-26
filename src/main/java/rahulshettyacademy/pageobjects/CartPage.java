@@ -38,7 +38,10 @@ public class CartPage extends AbstractComponent {
 		System.out.println("postjira3");
 		checkoutEle.click();
 		return new CheckoutPage(driver);
-		
+		System.out.println("postjira44");
+		System.out.println("postjira55");
+		System.out.println("postjira66");
+		System.out.println("postjira77");
 
 	}
 

@@ -41,6 +41,7 @@ public class CheckoutPage extends AbstractComponent {
 	
 	public ConfirmationPage submitOrder()
 	{
+		System.out.println("Web Automation");
 		submit.click();
 		return new ConfirmationPage(driver);
 		

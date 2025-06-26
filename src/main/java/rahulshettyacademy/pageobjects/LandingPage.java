@@ -51,26 +51,28 @@ public class LandingPage extends AbstractComponent{
 	{
 		waitForWebElementToAppear(errorMessage);
 		return errorMessage.getText();
+		System.out.println("NavtiveAppAndroid");
+		System.out.println("NavtiveAppAndroid");
+		System.out.println("NavtiveAppAndroid");
 	}
 	
 	public void goTo()
 	{
+		
+		System.out.println("IosApps");
+		System.out.println("IosApps");
+		System.out.println("IosApps");
 		driver.get("https://rahulshettyacademy.com/client");
 	}
 	
-	
-	
-	
-	
-	
-	
-	
+	public void goTo2()
+	{
+		
+		System.out.println("IosApps");
+		System.out.println("IosApps");
+		System.out.println("IosApps");
+		driver.get("https://rahulshettyacademy.com/client");
+	}
 
-	
-	
-	
-	
-	
-	
 	
 }

@@ -63,10 +63,5 @@ public class ProductCatalogue extends AbstractComponent {
 		waitForElementToAppear(toastMessage);
 		waitForElementToDisappear(spinner);
 
-
 	}
-	
-	
-	
-
 }

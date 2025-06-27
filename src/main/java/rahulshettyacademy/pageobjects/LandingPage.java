@@ -73,6 +73,4 @@ public class LandingPage extends AbstractComponent{
 		System.out.println("IosApps");
 		driver.get("https://rahulshettyacademy.com/client");
 	}
-
-	
 }
